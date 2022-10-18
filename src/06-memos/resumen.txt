@@ -1,0 +1,5 @@
+useCallback: memoriza funciones, es un hook |
+
+useMemo: memoriza valores, es un hook |
+
+memo: memoriza componentes, es un HOC.
