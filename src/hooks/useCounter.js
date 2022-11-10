@@ -13,7 +13,7 @@ export const useCounter = (initialValue = 10) => {
         setCounter(counter-value)
     }
 
-    const reset = (value = 1) => {
+    const reset = () => {
         setCounter(initialValue)
     }
 

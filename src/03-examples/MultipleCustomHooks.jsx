@@ -9,9 +9,9 @@ export const MultipleCustomHooks = () => {
   const { data, isLoading, hasError } = useFetch(
     `https://www.breakingbadapi.com/api/quotes/${counter}`
   );
-
+  
   const { author, quote} = (!isLoading && data.length>0) && data[0];
-
+  
   const onNext = () => {
     increment(1)
   }

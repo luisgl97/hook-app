@@ -19,15 +19,15 @@ export const SimpleForm = () => {
   }
 
   useEffect(() => {
-    // console.log('useEffect se ejecuta por primera vez');
+    console.log('useEffect se ejecuta por primera vez');
   },[])
 
   useEffect(() => {
-    // console.log('cambio el estado de formState');
+    console.log('cambio el estado de formState');
   },[formState])
 
   useEffect(() => {
-    // console.log('cambio el email');
+    console.log('cambio el email');
   },[email])
   
   return (

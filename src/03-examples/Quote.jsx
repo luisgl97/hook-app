@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 export const Quote = ({ quote, author }) => {
   const pRef = useRef();
@@ -14,6 +14,7 @@ export const Quote = ({ quote, author }) => {
       width,
     })
   }, [quote]);
+
 
   return (
     <>
